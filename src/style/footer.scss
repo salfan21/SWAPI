@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    height: 50px;
+    background-color: rgb(242,242,242);
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(0, 0%, 12%);
+    width: 100%;
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
+    &_item{
+        display: flex;
+        *{
+            font-weight: bold;
+            margin: 0 5px;
+        }
+        a{
+             color: #1f1f1f;
+            font-weight: bolder;
+        }
+        
+    }
+}

@@ -1,0 +1,24 @@
+.header{
+    color: #1f1f1f;
+    position: relative;
+    background-color: rgb(242, 242, 242);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &_list{
+        display: flex;
+        align-items: center;
+        &_item {
+            cursor: pointer;
+            margin: 0 30px; 
+            
+            font-weight: 600;
+            font-size: 25px;
+            text-transform: uppercase;
+            opacity: 0.7;
+        }:hover{
+          opacity: 1;
+        }
+    }
+}
