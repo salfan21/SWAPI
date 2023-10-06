@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "//salfan21.github.io/SWAPI/static/css/main.34d3fb53.css",
-    "main.js": "//salfan21.github.io/SWAPI/static/js/main.9c75f309.js",
-    "static/media/logoWhite.png": "//salfan21.github.io/SWAPI/static/media/logoWhite.fdcc6805e88e30b1621a.png",
-    "index.html": "//salfan21.github.io/SWAPI/index.html",
-    "main.34d3fb53.css.map": "//salfan21.github.io/SWAPI/static/css/main.34d3fb53.css.map",
-    "main.9c75f309.js.map": "//salfan21.github.io/SWAPI/static/js/main.9c75f309.js.map"
+    "main.css": "/static/css/main.34d3fb53.css",
+    "main.js": "/static/js/main.95923154.js",
+    "static/media/logoWhite.png": "/static/media/logoWhite.fdcc6805e88e30b1621a.png",
+    "index.html": "/index.html",
+    "main.34d3fb53.css.map": "/static/css/main.34d3fb53.css.map",
+    "main.95923154.js.map": "/static/js/main.95923154.js.map"
   },
   "entrypoints": [
     "static/css/main.34d3fb53.css",
-    "static/js/main.9c75f309.js"
+    "static/js/main.95923154.js"
   ]
 }
