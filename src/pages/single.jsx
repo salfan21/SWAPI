@@ -41,8 +41,6 @@ export const Single = () => {
 
         const opt = [];
         url.forEach((el,id) => {
-            // opt.push(el.arr)
-            // console.log(el.arr)
             let arr1 =[]
             let str = ''
             el.arr.forEach(e=>{
@@ -51,7 +49,6 @@ export const Single = () => {
             })
             opt.push(arr1)
         })
-        // console.log(itemsURL('////characters'))
     return (
         <div className='single'>
             <div className='text'>

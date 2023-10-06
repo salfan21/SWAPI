@@ -39,7 +39,7 @@ function Content({tF, tI}) {
         <div className="content_info">
              {result.length !== 0 ? 
              result.map(
-                ((el, id) => <Link to={`/${idd[1]}/${id+1}`} style={{textDecoration:'none', color:'inherit'}} state={{fetch:`https://swapi.dev/api/${tF}/${idFe(el)}`, title: tI, img: `https://starwars-visualguide.com/assets/img/${tI}/${idFe(el)}.jpg`}} key={idFe(el)}>
+                ((el, id) => <Link to={`/${idd[1]}/${idFe(el)}`} style={{textDecoration:'none', color:'inherit'}} state={{fetch:`https://swapi.dev/api/${tF}/${idFe(el)}`, title: tI, img: `https://starwars-visualguide.com/assets/img/${tI}/${idFe(el)}.jpg`}} key={idFe(el)}>
                     <div className="content_info_item" key={idFe(el)}><img src={`https://starwars-visualguide.com/assets/img/${tI}/${idFe(el)}.jpg`}  alt="img not found"/><p>{el.name}</p></div>
                             </Link>  )
             ) : null}
